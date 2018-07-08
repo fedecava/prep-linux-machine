@@ -1,11 +1,17 @@
 #!/bin/bash
 
 echo "Prepping this machine"
+
+echo "moving config files to home folder
 cd ../
 mv /prep-linux-machine/.bash_profile ~
 mv /prep-linux-machine/.tmux.conf ~
-rm -rf /prep-linux-machine
 
+echo "Creating scratch-area in home folder"
+mkdir ~/scratch-area
+
+echo "removing this directory and it's content"
+rm -rf /prep-linux-machine
 
 echo "Downloading tmux plugin manager"
 cd ~
