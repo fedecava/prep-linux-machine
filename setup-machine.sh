@@ -4,7 +4,7 @@ echo "Prepping this machine"
 cd ../
 mv /prep-linux-machine/.bash_profile ~
 mv /prep-linux-machine/.tmux.conf ~
-rm -r /prep-linux-machine
+rm -rf /prep-linux-machine
 
 
 echo "Downloading tmux plugin manager"
