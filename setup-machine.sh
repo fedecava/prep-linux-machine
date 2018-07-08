@@ -17,4 +17,4 @@ echo "Downloading tmux plugin manager"
 cd ~
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo "All done!"
+echo "All done."
