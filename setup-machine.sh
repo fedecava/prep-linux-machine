@@ -2,7 +2,7 @@
 
 echo "Prepping this machine"
 
-echo "moving config files to home folder
+echo "moving config files to home folder"
 cd ../
 mv /prep-linux-machine/.bash_profile ~
 mv /prep-linux-machine/.tmux.conf ~
