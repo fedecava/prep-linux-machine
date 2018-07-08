@@ -10,7 +10,7 @@ mv /prep-linux-machine/.tmux.conf ~
 echo "Creating scratch-area in home folder"
 mkdir ~/scratch-area
 
-echo "removing this directory and it\'s content"
+echo "removing this directory and its content"
 rm -rf /prep-linux-machine
 
 echo "Downloading tmux plugin manager"
