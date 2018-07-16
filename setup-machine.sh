@@ -17,6 +17,6 @@ rm -rf ~/prep-linux-machine
 
 cd ~
 source ~/.bash_profile
-tmux source-file .tmux.conf
+#tmux source-file .tmux.conf
 
 echo "All done!"
