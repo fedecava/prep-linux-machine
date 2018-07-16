@@ -12,8 +12,8 @@ mkdir ~/scratch-area
 echo "removing directory and its content"
 rm -rf ~/prep-linux-machine
 
-echo "Downloading tmux plugin manager"
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#echo "Downloading tmux plugin manager"
+#git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 cd ~
 source ~/.bash_profile
