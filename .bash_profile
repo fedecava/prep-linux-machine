@@ -13,4 +13,4 @@ alias gs='git status'
 
 clustername=$(motd | grep cluster | grep -o "[a-z]*_[a-z]*4") 
 
-export PS1="\[\e[31m\]$clustername \[\e[m\]\d - \A - \[\e[33m\]\w\[\e[m\] \\[\e[32m\]\\$\[\e[m\] "
+export PS1="\[\e[31m\]$clustername \[\e[m\]\d - \A \[\e[33m\]\w\[\e[m\] \\[\e[32m\]\\$\[\e[m\] "
